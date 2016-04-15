@@ -1,0 +1,622 @@
+@font-face {
+	font-family: 'maison_neuebold';
+	src: url('fonts/maisonneue-bold-webfont.eot');
+	src: url('fonts/maisonneue-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/maisonneue-bold-webfont.woff') format('woff'), url('fonts/maisonneue-bold-webfont.ttf') format('truetype'), url('fonts/maisonneue-bold-webfont.svg#maison_neuebold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MaisonNeue-Book';
+	src: url('fonts/MaisonNeue-Book.eot?#iefix') format('embedded-opentype'), url('fonts/MaisonNeue-Book.woff') format('woff'), url('fonts/MaisonNeue-Book.ttf') format('truetype'), url('fonts/MaisonNeue-Book.svg#MaisonNeue-Book') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MaisonNeue-Mono';
+	src: url('fonts/MaisonNeue-Mono.eot?#iefix') format('embedded-opentype'), url('fonts/MaisonNeue-Mono.woff') format('woff'), url('fonts/MaisonNeue-Mono.ttf') format('truetype'), url('fonts/MaisonNeue-Mono.svg#MaisonNeue-Mono') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'maison_neuemedium';
+	src: url('fonts/maisonneue-medium-webfont.eot');
+	src: url('fonts/maisonneue-medium-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/maisonneue-medium-webfont.woff') format('woff'), url('fonts/maisonneue-medium-webfont.ttf') format('truetype'), url('fonts/maisonneue-medium-webfont.svg#maison_neuemedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: maisonneue-book, sans-serif;
+	margin: 0;
+	font-size: 18px;
+}
+
+h1 {
+	font-family: maison_neuebold, sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-family: maison_neuemedium, sans-serif;
+	font-size: 1.5em;
+	line-height: 1.3;
+	font-weight: 300;
+	font-style: normal;
+}
+
+h1.category {
+	font-size: 2.5em;
+}
+
+h3,
+h4 {
+	font-size: 1.4em;
+	font-family: maison_neuemedium, sans-serif;
+	margin: 0;
+	letter-spacing: normal;
+	font-weight: 500;
+}
+
+h4 {
+	font-size: 28px;
+	text-transform: uppercase;
+	font-family: 'open sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #E74C3C;
+	opacity: .7
+}
+
+.big {
+	font-size: 60px;
+	font-weight: 600;
+}
+
+.sub-title-line {
+	display: block;
+	height: 1px;
+	background-color: rgb(190, 85, 85);
+	width: 100px;
+	bottom: 53px;
+	position: relative;
+	margin-left: -50px;
+	left: 50%;
+	top: 0px;
+}
+
+.sub-title-line-blue {
+	display: block;
+	height: 1px;
+	background-color: #52A8D5;
+	width: 100px;
+	bottom: 53px;
+	position: relative;
+	margin-left: -50px;
+	left: 50%;
+	top: 0px;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.7;
+}
+
+.custom-input {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 33px;
+	padding: 25px 20px;
+}
+
+.custom-input:focus {
+	border-color: white;
+	box-shadow: none
+}
+
+.custom-submit {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	background-color: rgb(190, 85, 85);
+	color: #fff;
+	border: 0;
+	font-size: 22px;
+	line-height: 33px;
+	padding: 0px 26px;
+	height: 52px;
+}
+
+.custom-submit:hover {
+	opacity: 0.8 !important;
+	background-color: #fff !important;
+	color: #E74C3C !important;
+}
+
+.white-text {
+	color: #fff;
+}
+
+.dark-text {
+	color: #444;
+}
+
+.header {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.one-liner {
+	margin-top: 200px;
+	margin-bottom: 40px;
+}
+
+.about {
+	padding-bottom: 100px;
+}
+
+.product {
+	padding: 120px 0;
+	background-color: #D36666;
+}
+
+div.footer img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	padding: 5px;
+	transition: all 100ms ease-in;
+}
+
+div.footer img:hover {
+	opacity: 0.7;
+}
+
+.product-image {
+	margin: 50px 0 0 0;
+	width: 500px;
+}
+
+.navbar {
+	padding: 40px;
+	padding-bottom: 0;
+}
+
+.app-name {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 36px;
+	font-weight: 800;
+	position: relative;
+	top: 8px;
+	margin-left: 10px;
+}
+
+.app-name:hover {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 36px;
+	font-weight: 800;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.photo {
+	height: 220px;
+	width: 220px;
+	position: relative;
+	border-radius: 1000px;
+	background-color: #ededed;
+	margin-top: 30px;
+	margin-bottom: 18px;
+}
+
+.contact {
+	margin: 20px 0 0 0;
+	overflow: hidden;
+	height: 500px;
+}
+
+#circle {
+	border-radius: 50% 50% 50% 50%;
+	width: 300px;
+	height: 300px;
+}
+
+.footer {
+	background-color: #fff;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer p {
+	margin: 0;
+	line-height: 5;
+}
+
+.productImage {
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+.intro {
+	color: #fff;
+	background-color: #E74C3C;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-linear-gradient(bottom, #FF8041, #E13A44);
+	background: -moz-linear-gradient(bottom, #FF8041, #E13A44);
+	background: linear-gradient(bottom, #FF8041, #E13A44);
+	background: -ms-linear-gradient(bottom, #FF8041, #E13A44);
+}
+
+.changing-header-text {
+	white-space: nowrap;
+}
+
+div.email-signup {
+	width: 100%;
+	max-width: 700px;
+}
+
+div.email-signup input {
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 700px;
+	letter-spacing: 1px;
+	background-color: none;
+	background: transparent;
+	border: 2px #fff solid;
+	height: 70px;
+	color: #fff;
+	padding: 5px 20px;
+	transition: background-color 100ms ease-in;
+}
+
+div.email-signup button {
+	background-color: #fff;
+	border: 4px #fff solid;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: .8px;
+	color: #E74C3C;
+	height: 70px;
+	-webkit-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+}
+
+div.email-signup button:hover {
+	background-color: transparent;
+	border: 4px #fff solid;
+	color: #fff;
+}
+
+div.padding {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+div.left {
+	width: 60%;
+	display: inline-block;
+}
+
+div.right {
+	width: 30%;
+	margin-top: -200px;
+	display: inline-block;
+	float: right;
+}
+
+div.thirds {
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+}
+
+div.desc {
+	display: inline-block;
+	margin-top: 100px;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	width: 45%;
+}
+
+div.mobile {
+	width: 45%;
+	height: 700px;
+	float: right;
+	margin-top: 40px;
+}
+
+div.desc p {
+	margin-bottom: 40px;
+	font-size: 1em;
+	font-weight: 300;
+	opacity: .9;
+	font-family: 'merriweather', serif;
+	font-style: italic;
+	line-height: 1.5;
+}
+
+div.quote {
+	display: block;
+	color: #fff;
+	max-height: 400px;
+	overflow: hidden;
+	background-color: #E74C3C;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-linear-gradient(bottom, #FF6656, #E74C3C);
+	background: -moz-linear-gradient(bottom, #FF6656, #E74C3C);
+	background: linear-gradient(bottom, #FF6656, #E74C3C);
+	background: -ms-linear-gradient(bottom, #FF6656, #E74C3C);
+}
+
+div.content {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+button.signUp {
+	background-color: transparent;
+	color: #fff;
+	border: 3px #fff solid;
+	text-transform: uppercase;
+	letter-spacing: .8px;
+	border-radius: 4px;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: 700;
+	display: inline-block;
+	float: right;
+	transition: all 100ms ease-in
+}
+
+button.signUp:hover {
+	background-color: #fff;
+	color: #E74C3C;
+}
+
+img.shadow {
+	-moz-box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, .1);
+	box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+div.hero {
+	margin-top: 50px;
+	height: 500px;
+}
+
+div.hero div {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+div.about h2 {
+	line-height: 1.4;
+	opacity: 0.6;
+}
+
+img.phone {
+	width: 100%;
+	max-width: 500px;
+	float: right;
+}
+
+h2.speakOut {
+	margin: 40px 0px;
+	line-height: 1.6;
+	opacity: .9;
+}
+/* FLEX ITEMS */
+
+.flex {
+	display: -webkit-flex;
+	display: flex;
+}
+
+.flex-row {
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+.flex-item-1 {
+	-webkit-flex: 1;
+	flex: 1;
+}
+
+.justify-center {
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.align-center {
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.align-end {
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
+
+.justify-end {
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+}
+
+.align-stretch {
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	-webkit-align-content: stretch;
+	align-content: stretch;
+}
+
+.justify-stretch {
+	-webkit-justify-content: stretch;
+	justify-content: stretch;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+@media(min-width: 500px) {
+	.info {
+		display: -webkit-flex;
+		display: flex;
+	}
+}
+
+@media(max-width: 700px) {
+	h1 {
+		font-size: 40px;
+	}
+	h1.category {
+		font-size: 55px;
+	}
+	div.about h2 {
+		font-size: 28px;
+		line-height: 1.3;
+	}
+	div.padding {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	div.navbar {
+		padding: 20px 10px;
+	}
+	div.header {
+		margin-top: -10px;
+	}
+	h2.speakOut {
+		margin: 30px 0px;
+		margin-top: 40px;
+		line-height: 1.7;
+		font-size: 24px;
+	}
+	.custom-submit {
+		padding: 10px 10px;
+		font-size: 18px;
+	}
+	div.hero {
+		height: 300px;
+		margin-top: 50px;
+	}
+	div.about {
+		padding-top: 60px;
+	}
+	div.about .padding {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	div.about h1,
+	div.about h2 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	div.desc {
+		margin-top: 50px;
+		padding-left: 20px;
+		width: 50%;
+	}
+	div.mobile {
+		padding-top: 0px;
+		margin-right: -30px;
+	}
+	img.phone {
+		width: 300px;
+		float: left;
+	}
+	.changing-header-text {
+		position: relative;
+	}
+}
+
+.full-width {
+	width: 100%;
+}
+
+.centered {
+	text-align: center;
+}
+
+.maison-medium {
+	font-family: maison_neuemedium, sans-serif;
+}
+
+.maison-bold {
+	font-family: maison_neuebold, sans-serif;
+}
+
+.maison-book {
+	font-family: maisonneue-book, sans-serif;
+}
+
+.block {
+	display: block;
+}
+
+#app-store {
+	transition: ease-in 100ms all;
+}
+
+#app-store:hover {
+	opacity: .8;
+	cursor: pointer;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.vertCenter {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.relative {
+	position: relative;
+}
+
+b {
+	font-family: maison_neuebold, sans-serif;
+	font-style: normal;
+}
+
+.maison-mono {
+	font-family: maisonneue-mono, monospace;
+}
+
+a {
+	text-decoration: none;
+}
+
+.red {
+	color: #E54D42;
+}
+
+.flex-item-2 {
+	-webkit-flex: 2;
+	flex: 2;
+}
+
+hr {
+	width: 40px;
+	height: 4px;
+	border: none;
+	background-color: #E54D42;
+	margin-top: 20px;
+}
